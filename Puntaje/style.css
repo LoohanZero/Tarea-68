@@ -1,0 +1,87 @@
+
+i {
+    height: 16px;
+    width: 16px;
+}
+.fas.fa-star {
+    font-size: 16px;
+
+    height: 16px;
+    width: 16px;
+    
+}
+
+.puntaje {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.texto {
+    padding-left: 5px;
+}
+
+.amarillo {
+    color: rgb(190, 190, 64);
+}
+
+.no {
+    display: none;
+}
+
+.box {
+    height: 60px;
+    width: 500px;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.danger {  
+    background-color: rgb(223, 132, 132, 0.3);
+}
+.danger::before {
+    color: red; 
+    font-family: "Font Awesome 5 Free";
+    content: "\f06a";
+    font-weight: 900;
+    padding: 0 20px;
+    font-size: 25px;
+}
+.success {
+    background-color: rgb(139, 209, 139, 0.5);
+}
+.success::before {
+    color: green; 
+    font-family: "Font Awesome 5 Free";
+    content: "\f058";
+    font-weight: 900;
+    padding: 0 20px;
+    font-size: 25px;
+}
+.warning {
+    background-color: rgb(206, 167, 94, 0.3);
+}
+.warning::before {
+    color: orange; 
+    font-family: "Font Awesome 5 Free";
+    content: "\f071";
+    font-weight: 900;
+    padding: 0 20px;
+    font-size: 25px;
+}
+
+.info {
+   background-color: rgb(149, 149, 221, 0.5);
+}
+
+.info::before {
+    color: blue; 
+    font-family: "Font Awesome 5 Free";
+    content: "\f05a";
+    font-weight: 900;
+    padding: 0 20px;
+    font-size: 25px;
+}
